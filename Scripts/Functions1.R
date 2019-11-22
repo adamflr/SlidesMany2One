@@ -5,3 +5,10 @@ slidesFromRmd <- function(file){
   a[substr(a, 1, 1) == "#"]
 }
 
+firstinstance <- function(x, y){
+  foo <- function(a, b){
+    min(which(a == b))
+  }
+  purrr::map_dbl(x, function(x) foo(x, y))
+}
+

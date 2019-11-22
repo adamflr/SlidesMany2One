@@ -5,7 +5,7 @@ output: revealjs::revealjs_presentation
 
 ##
 
-<div style="position:absolute;height:600px;width:1000px;top:0%;left:0%;background-color:#f0f;font-size:1vw;">
+<div style="position:absolute;height:700px;width:1300px;top:-20%;left:-20%;background-color:#f0f;font-size:1vw;">
 
 <div class="fragment fade-in fade-out" style="position:absolute;height:50%;width:33%;top:0%;left:0%;">
 <h2>R Markdown</h2>
