@@ -1,5 +1,5 @@
 # Present the headers from the markdown file
-# Will in current state also give any comments in R code
+# WILL IN CURRENT STATE ALSO GIVE ANY COMMENTS IN R CODE
 slidesFromRmd <- function(file){
   a <- readLines(file, encoding = "UTF-8")
   a[substr(a, 1, 1) == "#"]
