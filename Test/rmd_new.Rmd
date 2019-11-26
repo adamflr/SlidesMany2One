@@ -1,0 +1,56 @@
+---
+title: "Untitled"
+output: revealjs::revealjs_presentation
+---
+
+##
+
+<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;background-color:#fee;font-size:1vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
+<h2> R Markdown </h2>
+
+This is an R Markdown presentation using RevealJS. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+</div>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:33.33%;'>
+<h2> Slide with Bullets </h2>
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+</div>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:66.67%;'>
+<h2> Slide with Ballets </h2>
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+</div>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:0%;'>
+<h2> Slide with Bollets </h2>
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+</div>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;'>
+<h2> Slide with Billets </h2>
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+</div>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
+<h2> Slide with Bellets </h2>
+
+- Bullet 1
+- Bullet 2
+</div>
+</div>
