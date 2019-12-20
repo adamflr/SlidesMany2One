@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Introduktion och beskrivande statistik</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="01-Introduktion_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="01-Introduktion_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="style1.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Introduktion och beskrivande statistik</h1>
+</section>
+
+<section><section id="om-statistik" class="title-slide slide level1"><h1>Om statistik</h1></section><section id="skeende-och-brus" class="slide level2">
+<h2>Skeende och brus</h2>
+<p><span class="math inline">\(\text{Observation} = \text{Fenomen} + \text{Brus}\)</span></p>
+<p>Statistik är vetenskapen om bruset</p>
+<div style="position:relative;height:300px;">
+<p style="position:absolute;left:0%;width:33%">
+<img src='images/bild.jpg' height = 200 width = 200>
+</p>
+<p style="position:absolute;left:33%;width:33%">
+<img src='images/bild.jpg' height = 200 width = 200>
+</p>
+<p style="position:absolute;left:66%;width:33%">
+<img src='images/bild.jpg' height = 200 width = 200>
+</p>
+</div>
+</section><section id="populationsbegreppet" class="slide level2">
+<h2>Populationsbegreppet</h2>
+<div style="position:absolute;left:0%;width:50%;text-align:center;vertical-align:middle;">
+<p>Ekologisk population</p>
+<p><img src='https://upload.wikimedia.org/wikipedia/commons/9/94/Fire_ants_01.jpg' height = 200></p>
+<p>Fysiska individer</p>
+</div>
+<div style="position:absolute;left:50%;width:50%">
+<p>Statistisk population</p>
+<p><img src='https://upload.wikimedia.org/wikipedia/commons/9/94/Fire_ants_01.jpg' height = 200></p>
+<p>Variabelvärden</p>
+</div>
+</section><section id="stickprov" class="slide level2">
+<h2>Stickprov</h2>
+<div style="position:absolute;left:0%;width:50%">
+<p>Ett stickprov är ett urval ur populationen</p>
+</div>
+<div style="position:absolute;left:50%;width:50%">
+<p><img src='Images/popOchStick.jpg' height = 300></p>
+</div>
+</section><section id="section" class="slide level2">
+<h2></h2>
+<h3>
+Slumpmässigt urval
+</h3>
+<p>Alla individer i population har <strong>någon</strong> sannolikhet att tas med i stickprovet</p>
+<h3>
+Obundet slumpmässigt urval
+</h3>
+<p>Alla individer i population har <strong>samma</strong> sannolikhet att tas med i stickprovet</p>
+</section><section id="experiment" class="slide level2">
+<h2>Experiment</h2>
+<p>Styr en <em>ingångsvariabel</em> och mäter utfallet i en <em>responsvariabel</em></p>
+<p>Exempel</p>
+<ul>
+<li>Växthusförsök med skilda genotyper</li>
+<li>Populationssammansättning med eller utan bränning föregående år</li>
+</ul>
+</section><section id="replikat-och-pseudoreplikat" class="slide level2">
+<h2>Replikat och pseudoreplikat</h2>
+<p><span class="math display">\[\text{Observation} = \text{Fenomen} + \text{Brus}\]</span></p>
+<p><em>Fenomenet</em> är detsamma över replikaten, men <em>bruset</em> varierar</p>
+<p>Upprepade försök (replikat) ger en klarare bild av fenomenet</p>
+<p><em>Pseudoreplikat</em> - upprepade mätningar på samma enhet</p>
+</section><section id="randomisering" class="slide level2">
+<h2>Randomisering</h2>
+<p>Behandlingar och observerade enheter</p>
+<p>Randomisering: behandling paras med observerad enhet slumpmässigt</p>
+</section></section>
+<section><section id="beskrivande-statistik" class="title-slide slide level1"><h1>Beskrivande statistik</h1></section><section id="statistisk-variabel" class="slide level2">
+<h2>Statistisk variabel</h2>
+<p>En mätbar egenskap som varierar mellan individer</p>
+</section><section id="taxologi-för-variabler" class="slide level2">
+<h2>Taxologi för variabler</h2>
+<div style="position:absolute;left:0%;width:45%">
+<p><em>Kvalitativa</em> variabler kan ej beskrivas med siffror</p>
+<p><em>Kvantitativa</em> variabler beskrivs med siffror</p>
+<p>Kvantitativa variabler kan vara <em>diskreta</em> eller <em>kontinuerliga</em></p>
+</div>
+<div style="position:absolute;left:50%;width:50%">
+<p><img src='Images/kvalKvant.jpg' height = 300></p>
+</div>
+</section><section id="taxologi-för-variabler-skaltyper" class="slide level2">
+<h2>Taxologi för variabler, skaltyper</h2>
+<p>Variabler kan även kategoriseras i <em>skaltyper</em></p>
+<p>Skaltyp baseras på relation mellan utfall</p>
+</section><section id="nominalskala" class="slide level2">
+<h2>Nominalskala</h2>
+<p>Ingen relation mellan möjliga utfall</p>
+<p>Art, egennamn, nationalitet, yrke, jordtyp</p>
+</section><section id="ordinalskala" class="slide level2">
+<h2>Ordinalskala</h2>
+<p>Ett utfall kan vara mindre än, mer än eller lika ett annat utfall</p>
+<p>Inget mått på hur stor skillnaden är</p>
+<p>Subjektiva kvalitetsbedömningar</p>
+</section><section id="intervall-kvot-skala" class="slide level2">
+<h2>Intervall-kvot-skala</h2>
+<p>Skillnaden mellan två utfall är tolkningsbar</p>
+<p>Kvotskalan har en fixerad nollpunkt, medan variabler på intervallskala kan vara negativa</p>
+<p>Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder</p>
+</section><section id="sammanfattning-taxologi" class="slide level2">
+<h2>Sammanfattning, taxologi</h2>
+<div style="position:absolute;left:0%;width:45%;font-size:0.75em;">
+<ul>
+<li>En myras vikt</li>
+<li>En films betyg</li>
+<li>En sommardags temperatur</li>
+<li>En människas nationalitet</li>
+<li>En hotellgästs nöjdhet</li>
+<li>En fågels art</li>
+</ul>
+</div>
+<div style="position:absolute;left:50%;width:50%;font-size:0.75em;">
+<ul>
+<li class="fragment">Kvant, kontinuerlig, intervall/kvot</li>
+<li class="fragment">Kvalitativ, ordinal</li>
+<li class="fragment">Kvant, kontinuerlig, intervall/kvot</li>
+<li class="fragment">Kvalitativ, nominal</li>
+<li class="fragment">Kvalitativ, ordinal</li>
+<li class="fragment">Kvalitativ, nominal</li>
+</ul>
+</div>
+</section></section>
+<section><section id="punktskattningar" class="title-slide slide level1"><h1>Punktskattningar</h1></section><section id="läge-och-spridning" class="slide level2">
+<h2>Läge och spridning</h2>
+<p>En punktskattning är ett tal som beskriver någon egenskap hos en variabel</p>
+<p><em>Lägesmått</em> skattar var på tallinjen variabeln är centrerad</p>
+<p><em>Spridningsmått</em> skattar hur utspridd variabeln är</p>
+</section><section id="medelvärde" class="slide level2">
+<h2>Medelvärde</h2>
+<p>Summan av alla värden delat på antalet värden</p>
+<p><span class="math display">\[\bar x = \frac{1}{n} \sum_{i=1}^n x_i\]</span></p>
+<p>Ett jämviktsläge</p>
+</section><section id="median" class="slide level2">
+<h2>Median</h2>
+<p>Lika många värden över medianen som under medianen</p>
+<p>Betecknas här <em>Md</em></p>
+</section><section id="kvartiler" class="slide level2">
+<h2>Kvartiler</h2>
+<p>Kvartiler (<span class="math inline">\(q_1, q_2, q_3)\)</span> delar ett material i fyra lika delar</p>
+<p>En fjärdedel ligger under <span class="math inline">\(q_1\)</span>, två fjärdedelar under <span class="math inline">\(q_2\)</span> och tre fjärdedelar under <span class="math inline">\(q_3\)</span></p>
+<p><span class="math inline">\(q_2 = Md\)</span></p>
+</section><section id="typvärde" class="slide level2">
+<h2>Typvärde</h2>
+<p>Det vanligast förekommande värdet</p>
+</section><section id="ett-exempel" class="slide level2">
+<h2>Ett exempel</h2>
+<p>Antal sparvnävor i stickprov från åtta fält</p>
+<p><span class="math display">\[(2, 4, 6, 6, 11, 13, 16, 22)\]</span></p>
+<div style="position:absolute;left:0%;width:45%;">
+<ul>
+<li>Medelvärde</li>
+<li>Median</li>
+<li>Typvärde</li>
+</ul>
+</div>
+<div style="position:absolute;left:50%;width:50%;">
+<ul>
+<li class="fragment"><span class="math inline">\(10\)</span></li>
+<li class="fragment"><span class="math inline">\(8.5\)</span></li>
+<li class="fragment"><span class="math inline">\(6\)</span></li>
+</ul>
+</div>
+</section><section id="varians-s2" class="slide level2">
+<h2>Varians, <span class="math inline">\(s^2\)</span></h2>
+<p>Summerade kvadratavstånd till medelvärdet delat på <span class="math inline">\(n - 1\)</span></p>
+<p><span class="math display">\[s^2 = \frac{\sum_{i=1}^n (x_i - \bar x)^2}{n - 1}\]</span></p>
+</section><section id="standardavvikelse-s" class="slide level2">
+<h2>Standardavvikelse, <span class="math inline">\(s\)</span></h2>
+<p>Standardavvikelsen <span class="math inline">\(s\)</span> är roten av variansen</p>
+<p><span class="math display">\[s = \sqrt s\]</span></p>
+<p><span class="math inline">\(s\)</span> är på samma skala som den ursprungliga variabeln</p>
+</section><section id="kvartilavstånd" class="slide level2">
+<h2>Kvartilavstånd</h2>
+<p><em>Interquartile range, IQR</em></p>
+<p>Avståndet mellan <span class="math inline">\(q_1\)</span> och <span class="math inline">\(q_3\)</span></p>
+<p><span class="math display">\[IQR = q_3 - q_1\]</span></p>
+</section></section>
+<section><section id="visualiseringar" class="title-slide slide level1"><h1>Visualiseringar</h1></section><section id="stapeldiagram" class="slide level2">
+<h2>Stapeldiagram</h2>
+<p>Staplar ger antalet observationer inom en viss kategori</p>
+<p><img src="01-Introduktion_files/figure-revealjs/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section><section id="cirkeldiagram" class="slide level2">
+<h2>Cirkeldiagram</h2>
+<div style="position:absolute;left:0%;width:45%;">
+<p>Sektorer i en cirkel ger andelen observationer inom en viss kategori</p>
+<p>Det finns människor som är väldigt negativt inställda till cirkeldiagram</p>
+</div>
+<div style="position:absolute;left:50%;width:50%;">
+<p><img src="01-Introduktion_files/figure-revealjs/unnamed-chunk-2-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+</section><section id="lådogram-boxplot" class="slide level2">
+<h2>Lådogram (boxplot)</h2>
+<div style="font-size:0.75em;">
+<p>Visar minimum och maximum, kvantiler och eventuella extremvärden</p>
+<p>Den inre boxen går från <span class="math inline">\(q_1\)</span> till <span class="math inline">\(q_3\)</span>,</p>
+<p><em>Morrhår</em> går till minsta respektive högsta värde som inte är extremvärden</p>
+<p>Extremvärden (bortom ett och ett halvt IQR från närmsta kvartil) markeras med punkter</p>
+</div>
+<p><img src="01-Introduktion_files/figure-revealjs/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section><section id="histogram" class="slide level2">
+<h2>Histogram</h2>
+<p>Generaliserar stapeldiagrammet till kontinuerliga variabler</p>
+<p>Delar in tallinjen i intervall och skapar staplar vars höjd symboliserar antalet observationer i det intervallet delat på intervallets bredd</p>
+<p><img src="01-Introduktion_files/figure-revealjs/unnamed-chunk-4-1.png" width="768" style="display: block; margin: auto;" /></p>
+</section><section id="venn-diagram" class="slide level2">
+<h2>Venn-diagram</h2>
+<div style="position:absolute;left:0%;width:45%;">
+<p>Cirklar anger andelen observationer med en viss egenskap</p>
+<p>Överlappande cirklar anger observationer som har flera egenskaper</p>
+</div>
+<div style="position:absolute;left:50%;width:50%;">
+<p><img src='Images/Venn1.png' height = 350></p>
+</div>
+</section></section>
+<section id="sammanfattning" class="title-slide slide level1"><h1>Sammanfattning</h1></section>
+    </div>
+  </div>
+
+  <script src="01-Introduktion_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="01-Introduktion_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS_SVG";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

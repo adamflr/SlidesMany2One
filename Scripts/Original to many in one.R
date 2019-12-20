@@ -1,13 +1,16 @@
 # Stepwise changes to original Rmd to form many slides on one slide
-composition <- data.frame(component = extract_slides("Test/test1.Rmd")[,1],
-                          first_line = extract_slides("Test/test1.Rmd")[,2],
-                          last_line = extract_slides("Test/test1.Rmd")[,3],
-                          main_slide = 1,
-                          row = c(1,1,1,2,2,2),
-                          col = c(1,2,3,1,2,3),
+file_path <- "Test/01 Introduktion.Rmd"
+composition <- data.frame(component = extract_slides(file_path)[,1],
+                          first_line = extract_slides(file_path)[,2],
+                          last_line = extract_slides(file_path)[,3],
+                          stringsAsFactors = F)
+composition <- data.frame(composition,
+                          main_slide = rep(1:10, each = 6)[1:length(composition$component)],
+                          row = rep(c(1,1,1,2,2,2), 10)[1:length(composition$component)],
+                          col = rep(c(1,2,3,1,2,3), 10)[1:length(composition$component)],
                           stringsAsFactors = F)
 
-rmd_org <- readLines("Test/test1.Rmd")
+rmd_org <- readLines(file_path, encoding = "UTF-8")
 
 library(dplyr)
 composition %>%
@@ -57,6 +60,7 @@ for(i in 1:dim(composition_mains)[1]){
 
 library(rmarkdown)
 writeLines(rmd_new, con = "Test/rmd_new2.Rmd")
+
 setwd("Test/")
-render(input = "rmd_new.Rmd", output_file = "rmd_new.html")
+render(input = "rmd_new2.Rmd", output_file = "rmd_new.html")
 setwd("..")
