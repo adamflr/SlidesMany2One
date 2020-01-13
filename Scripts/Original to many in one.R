@@ -59,8 +59,10 @@ for(i in 1:dim(composition_mains)[1]){
 }
 
 library(rmarkdown)
-writeLines(rmd_new, con = "Test/rmd_new2.Rmd")
+#writeLines(rmd_new, con = "Test/rmd_new2.Rmd") # Encoding?
+write.table(rmd_new, "Test/rmd_new_table.Rmd", row.names = F, col.names = F, 
+            fileEncoding = "UTF-8", quote = F)
 
 setwd("Test/")
-render(input = "rmd_new2.Rmd", output_file = "rmd_new.html")
+render(input = "rmd_new_table.Rmd", output_file = "rmd_new.html")
 setwd("..")

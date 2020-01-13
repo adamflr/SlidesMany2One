@@ -19,7 +19,7 @@ output:
 
 $\text{Observation} = \text{Fenomen} + \text{Brus}$
 
-Statistik är vetenskapen om bruset
+Statistik Ã¤r vetenskapen om bruset
 
 <div style="position:relative;height:300px;">
 <p style="position:absolute;left:0%;width:33%">
@@ -52,7 +52,7 @@ Statistisk population
 
 <img src='https://upload.wikimedia.org/wikipedia/commons/9/94/Fire_ants_01.jpg' height = 200>
 
-Variabelvärden
+VariabelvÃ¤rden
 </div>
 
 </div>
@@ -60,7 +60,7 @@ Variabelvärden
 <h2> Stickprov </h2>
 
 <div style="position:absolute;left:0%;width:50%">
-Ett stickprov är ett urval ur populationen
+Ett stickprov Ã¤r ett urval ur populationen
 </div>
 
 <div style="position:absolute;left:50%;width:50%">
@@ -71,11 +71,11 @@ Ett stickprov är ett urval ur populationen
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;'>
 <h2>  </h2>
 
-<h3>Slumpmässigt urval</h3>
+<h3>SlumpmÃ¤ssigt urval</h3>
 
-Alla individer i population har **någon** sannolikhet att tas med i stickprovet
+Alla individer i population har **nÃ¥gon** sannolikhet att tas med i stickprovet
 
-<h3>Obundet slumpmässigt urval</h3>
+<h3>Obundet slumpmÃ¤ssigt urval</h3>
 
 Alla individer i population har **samma** sannolikhet att tas med i stickprovet
 
@@ -83,12 +83,12 @@ Alla individer i population har **samma** sannolikhet att tas med i stickprovet
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
 <h2> Experiment </h2>
 
-Styr en *ingångsvariabel* och mäter utfallet i en *responsvariabel*
+Styr en *ingÃ¥ngsvariabel* och mÃ¤ter utfallet i en *responsvariabel*
 
 Exempel
 
-- Växthusförsök med skilda genotyper
-- Populationssammansättning med eller utan bränning föregående år
+- VÃ¤xthusfÃ¶rsÃ¶k med skilda genotyper
+- PopulationssammansÃ¤ttning med eller utan brÃ¤nning fÃ¶regÃ¥ende Ã¥r
 
 </div>
 </div>
@@ -101,11 +101,11 @@ Exempel
 
 $$\text{Observation} = \text{Fenomen} + \text{Brus}$$
 
-*Fenomenet* är detsamma över replikaten, men *bruset* varierar
+*Fenomenet* Ã¤r detsamma Ã¶ver replikaten, men *bruset* varierar
 
-Upprepade försök (replikat) ger en klarare bild av fenomenet
+Upprepade fÃ¶rsÃ¶k (replikat) ger en klarare bild av fenomenet
 
-*Pseudoreplikat* - upprepade mätningar på samma enhet
+*Pseudoreplikat* - upprepade mÃ¤tningar pÃ¥ samma enhet
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:33.33%;'>
@@ -113,7 +113,7 @@ Upprepade försök (replikat) ger en klarare bild av fenomenet
 
 Behandlingar och observerade enheter
 
-Randomisering: behandling paras med observerad enhet slumpmässigt
+Randomisering: behandling paras med observerad enhet slumpmÃ¤ssigt
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:66.67%;'>
@@ -123,11 +123,11 @@ Randomisering: behandling paras med observerad enhet slumpmässigt
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:0%;'>
 <h2> Statistisk variabel </h2>
 
-En mätbar egenskap som varierar mellan individer
+En mÃ¤tbar egenskap som varierar mellan individer
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;'>
-<h2> Taxologi för variabler </h2>
+<h2> Taxologi fÃ¶r variabler </h2>
 
 <div style="position:absolute;left:0%;width:45%">
 *Kvalitativa* variabler kan ej beskrivas med siffror
@@ -143,11 +143,11 @@ Kvantitativa variabler kan vara *diskreta* eller *kontinuerliga*
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
-<h2> Taxologi för variabler, skaltyper </h2>
+<h2> Taxologi fÃ¶r variabler, skaltyper </h2>
 
-Variabler kan även kategoriseras i *skaltyper*
+Variabler kan Ã¤ven kategoriseras i *skaltyper*
 
-Skaltyp baseras på relation mellan utfall
+Skaltyp baseras pÃ¥ relation mellan utfall
 
 </div>
 </div>
@@ -158,7 +158,7 @@ Skaltyp baseras på relation mellan utfall
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Nominalskala </h2>
 
-Ingen relation mellan möjliga utfall
+Ingen relation mellan mÃ¶jliga utfall
 
 Art, egennamn, nationalitet, yrke, jordtyp
 
@@ -166,21 +166,21 @@ Art, egennamn, nationalitet, yrke, jordtyp
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:33.33%;'>
 <h2> Ordinalskala </h2>
 
-Ett utfall kan vara mindre än, mer än eller lika ett annat utfall
+Ett utfall kan vara mindre Ã¤n, mer Ã¤n eller lika ett annat utfall
 
-Inget mått på hur stor skillnaden är
+Inget mÃ¥tt pÃ¥ hur stor skillnaden Ã¤r
 
-Subjektiva kvalitetsbedömningar
+Subjektiva kvalitetsbedÃ¶mningar
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:66.67%;'>
 <h2> Intervall-kvot-skala </h2>
 
-Skillnaden mellan två utfall är tolkningsbar
+Skillnaden mellan tvÃ¥ utfall Ã¤r tolkningsbar
 
-Kvotskalan har en fixerad nollpunkt, medan variabler på intervallskala kan vara negativa
+Kvotskalan har en fixerad nollpunkt, medan variabler pÃ¥ intervallskala kan vara negativa
 
-Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder
+Temperatur (celsius och kelvin), berÃ¤knade antal, vikter, hÃ¶jder, lÃ¤ngder
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:0%;'>
@@ -190,9 +190,9 @@ Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder
 - En myras vikt
 - En films betyg
 - En sommardags temperatur
-- En människas nationalitet
-- En hotellgästs nöjdhet
-- En fågels art
+- En mÃ¤nniskas nationalitet
+- En hotellgÃ¤sts nÃ¶jdhet
+- En fÃ¥gels art
 </div>
 
 <div style="position:absolute;left:50%;width:50%;font-size:0.75em;">
@@ -210,13 +210,13 @@ Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
-<h2> Läge och spridning </h2>
+<h2> LÃ¤ge och spridning </h2>
 
-En punktskattning är ett tal som beskriver någon egenskap hos en variabel
+En punktskattning Ã¤r ett tal som beskriver nÃ¥gon egenskap hos en variabel
 
-*Lägesmått* skattar var på tallinjen variabeln är centrerad
+*LÃ¤gesmÃ¥tt* skattar var pÃ¥ tallinjen variabeln Ã¤r centrerad
 
-*Spridningsmått* skattar hur utspridd variabeln är
+*SpridningsmÃ¥tt* skattar hur utspridd variabeln Ã¤r
 
 </div>
 </div>
@@ -225,21 +225,21 @@ En punktskattning är ett tal som beskriver någon egenskap hos en variabel
 <div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
-<h2> Medelvärde </h2>
+<h2> MedelvÃ¤rde </h2>
 
-Summan av alla värden delat på antalet värden
+Summan av alla vÃ¤rden delat pÃ¥ antalet vÃ¤rden
 
 $$\bar x = \frac{1}{n} \sum_{i=1}^n x_i$$
 
-Ett jämviktsläge
+Ett jÃ¤mviktslÃ¤ge
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:33.33%;'>
 <h2> Median </h2>
 
-Lika många värden över medianen som under medianen
+Lika mÃ¥nga vÃ¤rden Ã¶ver medianen som under medianen
 
-Betecknas här *Md*
+Betecknas hÃ¤r *Md*
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:66.67%;'>
@@ -247,28 +247,28 @@ Betecknas här *Md*
 
 Kvartiler ($q_1, q_2, q_3)$ delar ett material i fyra lika delar
 
-En fjärdedel ligger under $q_1$, två fjärdedelar under $q_2$ och tre fjärdedelar under $q_3$
+En fjÃ¤rdedel ligger under $q_1$, tvÃ¥ fjÃ¤rdedelar under $q_2$ och tre fjÃ¤rdedelar under $q_3$
 
 $q_2 = Md$
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:0%;'>
-<h2> Typvärde </h2>
+<h2> TypvÃ¤rde </h2>
 
-Det vanligast förekommande värdet
+Det vanligast fÃ¶rekommande vÃ¤rdet
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;'>
 <h2> Ett exempel </h2>
 
-Antal sparvnävor i stickprov från åtta fält
+Antal sparvnÃ¤vor i stickprov frÃ¥n Ã¥tta fÃ¤lt
 
 $$(2, 4, 6, 6, 11, 13, 16, 22)$$
 
 <div style="position:absolute;left:0%;width:45%;">
-- Medelvärde
+- MedelvÃ¤rde
 - Median
-- Typvärde
+- TypvÃ¤rde
 </div>
 
 <div style="position:absolute;left:50%;width:50%;">
@@ -281,7 +281,7 @@ $$(2, 4, 6, 6, 11, 13, 16, 22)$$
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
 <h2> Varians, $s^2$ </h2>
 
-Summerade kvadratavstånd till medelvärdet delat på $n - 1$
+Summerade kvadratavstÃ¥nd till medelvÃ¤rdet delat pÃ¥ $n - 1$
 
 $$s^2 = \frac{\sum_{i=1}^n (x_i - \bar x)^2}{n - 1}$$
 
@@ -294,19 +294,19 @@ $$s^2 = \frac{\sum_{i=1}^n (x_i - \bar x)^2}{n - 1}$$
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Standardavvikelse, $s$ </h2>
 
-Standardavvikelsen $s$ är roten av variansen
+Standardavvikelsen $s$ Ã¤r roten av variansen
 
 $$s = \sqrt s$$
 
-$s$ är på samma skala som den ursprungliga variabeln
+$s$ Ã¤r pÃ¥ samma skala som den ursprungliga variabeln
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:33.33%;'>
-<h2> Kvartilavstånd </h2>
+<h2> KvartilavstÃ¥nd </h2>
 
 *Interquartile range, IQR*
 
-Avståndet mellan $q_1$ och $q_3$
+AvstÃ¥ndet mellan $q_1$ och $q_3$
 
 $$IQR = q_3 - q_1$$
 
@@ -321,7 +321,7 @@ $$IQR = q_3 - q_1$$
 Staplar ger antalet observationer inom en viss kategori
 
 ```{r, echo = F, fig.height=4, fig.align='center'}
-dat <- data.frame(Art = c("Mjuknäva", "Skatnäva", "Skuggnäva", "Sparvnäva"),
+dat <- data.frame(Art = c("MjuknÃ¤va", "SkatnÃ¤va", "SkuggnÃ¤va", "SparvnÃ¤va"),
                   Antal = c(8, 12, 4, 9),
                   SE = c(0.4, 0.3, 0.9, 1.2))
 
@@ -341,7 +341,7 @@ ggplot(dat, aes(Art, Antal, ymin = Antal - SE, ymax = Antal + SE)) +
 <div style="position:absolute;left:0%;width:45%;">
 Sektorer i en cirkel ger andelen observationer inom en viss kategori
 
-Det finns människor som är väldigt negativt inställda till cirkeldiagram
+Det finns mÃ¤nniskor som Ã¤r vÃ¤ldigt negativt instÃ¤llda till cirkeldiagram
 </div>
 
 <div style="position:absolute;left:50%;width:50%;">
@@ -354,16 +354,16 @@ pie(dat$Antal, paste(dat$Art, round(dat$Antal/sum(dat$Antal) * 100, 1), "%"),
 
 </div>
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:66.67%;'>
-<h2> Lådogram (boxplot) </h2>
+<h2> LÃ¥dogram (boxplot) </h2>
 
 <div style="font-size:0.75em;">
-Visar minimum och maximum, kvantiler och eventuella extremvärden
+Visar minimum och maximum, kvantiler och eventuella extremvÃ¤rden
 
-Den inre boxen går från $q_1$ till $q_3$, 
+Den inre boxen gÃ¥r frÃ¥n $q_1$ till $q_3$, 
 
-*Morrhår* går till minsta respektive högsta värde som inte är extremvärden
+*MorrhÃ¥r* gÃ¥r till minsta respektive hÃ¶gsta vÃ¤rde som inte Ã¤r extremvÃ¤rden
 
-Extremvärden (bortom ett och ett halvt IQR från närmsta kvartil) markeras med punkter
+ExtremvÃ¤rden (bortom ett och ett halvt IQR frÃ¥n nÃ¤rmsta kvartil) markeras med punkter
 </div>
 
 ```{r, echo = F, fig.height=2, fig.align='center'}
@@ -402,7 +402,7 @@ ggplot(a, aes(y = values)) + geom_boxplot(width = 0.005) +
 
 Generaliserar stapeldiagrammet till kontinuerliga variabler
 
-Delar in tallinjen i intervall och skapar staplar vars höjd symboliserar antalet observationer i det intervallet delat på intervallets bredd
+Delar in tallinjen i intervall och skapar staplar vars hÃ¶jd symboliserar antalet observationer i det intervallet delat pÃ¥ intervallets bredd
 
 ```{r, echo = F, fig.height=2, fig.align='center'}
 ggplot(a, aes(x = values)) + 
@@ -422,7 +422,7 @@ ggplot(a, aes(x = values)) +
 <div style="position:absolute;left:0%;width:45%;">
 Cirklar anger andelen observationer med en viss egenskap
 
-Överlappande cirklar anger observationer som har flera egenskaper 
+Ã–verlappande cirklar anger observationer som har flera egenskaper 
 </div>
 
 <div style="position:absolute;left:50%;width:50%;">
