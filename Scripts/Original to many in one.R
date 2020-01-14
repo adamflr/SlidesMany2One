@@ -21,6 +21,9 @@ composition %>%
          width = round(100 * 1 / max(col), 2)) %>% 
   ungroup() -> composition
 
+composition$additional_css <- ""
+composition$additional_css[5] <- "background-color:#0f0;"
+
 composition %>% 
   group_by(main_slide) %>% 
   summarise(components = n(),
@@ -36,7 +39,7 @@ for(i in 1:dim(composition_mains)[1]){
   
   added_main <- c("##", 
                   "", 
-                  "<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>", 
+                  "<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>", 
                   "")
   
   for(j in 1:dim(components)[1]){
@@ -44,7 +47,9 @@ for(i in 1:dim(composition_mains)[1]){
                    components$height[j], "%;width:",
                    components$width[j], "%;top:",
                    components$y1[j], "%;left:",
-                   components$x1[j], "%;'>")
+                   components$x1[j], "%;",
+                   components$additional_css[j],
+                   "'>")
     
     title <- paste0("<h2> ", paste(strsplit(components$component[j], " ")[[1]][-1], collapse = " "), " </h2>")
     
@@ -64,5 +69,5 @@ write.table(rmd_new, "Test/rmd_new_table.Rmd", row.names = F, col.names = F,
             fileEncoding = "UTF-8", quote = F)
 
 setwd("Test/")
-render(input = "rmd_new_table.Rmd", output_file = "rmd_new.html")
+render(input = "rmd_new_table.Rmd", output_file = "rmd_new.html", encoding = "UTF-8")
 setwd("..")

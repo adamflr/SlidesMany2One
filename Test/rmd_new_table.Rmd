@@ -8,7 +8,7 @@ output:
 
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Om statistik </h2>
@@ -68,7 +68,7 @@ Ett stickprov är ett urval ur populationen
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;'>
+<div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:50%;left:33.33%;background-color:#0f0;'>
 <h2>  </h2>
 
 <h3>Slumpmässigt urval</h3>
@@ -94,7 +94,7 @@ Exempel
 </div>
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Replikat och pseudoreplikat </h2>
@@ -153,7 +153,7 @@ Skaltyp baseras på relation mellan utfall
 </div>
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Nominalskala </h2>
@@ -222,7 +222,7 @@ En punktskattning är ett tal som beskriver någon egenskap hos en variabel
 </div>
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Medelvärde </h2>
@@ -289,7 +289,7 @@ $$s^2 = \frac{\sum_{i=1}^n (x_i - \bar x)^2}{n - 1}$$
 </div>
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:50%;width:33.33%;top:0%;left:0%;'>
 <h2> Standardavvikelse, $s$ </h2>
@@ -395,7 +395,7 @@ ggplot(a, aes(y = values)) + geom_boxplot(width = 0.005) +
 </div>
 ##
 
-<div style='position:absolute;height:700px;width:1300px;top:-20%;left:-20%;font-size:1vw;'>
+<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>
 
 <div class='fragment fade-in' style='position:absolute;height:100%;width:33.33%;top:0%;left:0%;'>
 <h2> Histogram </h2>
