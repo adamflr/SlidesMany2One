@@ -23,7 +23,11 @@ composition %>%
   ungroup() -> composition
 
 composition$additional_css <- ""
+<<<<<<< HEAD
 composition$additional_css <- "background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;"
+=======
+composition$additional_css[5] <- "background-color:#0f0;"
+>>>>>>> 4fc5a3ad10955530938a1cb6a514aef780e5cbe7
 
 composition %>% 
   group_by(main_slide) %>% 
@@ -40,7 +44,11 @@ for(i in 1:dim(composition_mains)[1]){
   
   added_main <- c("##", 
                   "", 
+<<<<<<< HEAD
                   "<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>", 
+=======
+                  "<div style='position:absolute;height:800px;width:1300px;top:-100px;left:-20%;font-size:0.75vw;'>", 
+>>>>>>> 4fc5a3ad10955530938a1cb6a514aef780e5cbe7
                   "")
   
   for(j in 1:dim(components)[1]){
