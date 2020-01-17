@@ -1,4 +1,6 @@
 # Stepwise changes to original Rmd to form many slides on one slide
+source("Scripts/Functions1.R")
+
 file_path <- "Test/01 Introduktion.Rmd"
 composition <- data.frame(component = extract_slides(file_path)[,1],
                           first_line = extract_slides(file_path)[,2],
