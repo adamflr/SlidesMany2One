@@ -10,11 +10,11 @@ output:
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Om statistik </h2>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Skeende och brus </h2>
 
 $\text{Observation} = \text{Fenomen} + \text{Brus}$
@@ -36,7 +36,12 @@ Statistik är vetenskapen om bruset
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Populationsbegreppet </h2>
 
 <div style="position:absolute;left:0%;width:50%;text-align:center;vertical-align:middle;">
@@ -56,7 +61,7 @@ Variabelvärden
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Stickprov </h2>
 
 <div style="position:absolute;left:0%;width:50%">
@@ -68,7 +73,12 @@ Ett stickprov är ett urval ur populationen
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2>  </h2>
 
 <h3>Slumpmässigt urval</h3>
@@ -80,7 +90,7 @@ Alla individer i population har **någon** sannolikhet att tas med i stickprovet
 Alla individer i population har **samma** sannolikhet att tas med i stickprovet
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Experiment </h2>
 
 Styr en *ingångsvariabel* och mäter utfallet i en *responsvariabel*
@@ -96,7 +106,7 @@ Exempel
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Replikat och pseudoreplikat </h2>
 
 $$\text{Observation} = \text{Fenomen} + \text{Brus}$$
@@ -108,7 +118,7 @@ Upprepade försök (replikat) ger en klarare bild av fenomenet
 *Pseudoreplikat* - upprepade mätningar på samma enhet
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Randomisering </h2>
 
 Behandlingar och observerade enheter
@@ -116,17 +126,27 @@ Behandlingar och observerade enheter
 Randomisering: behandling paras med observerad enhet slumpmässigt
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Beskrivande statistik </h2>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Statistisk variabel </h2>
 
 En mätbar egenskap som varierar mellan individer
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Taxologi för variabler </h2>
 
 <div style="position:absolute;left:0%;width:45%">
@@ -142,7 +162,7 @@ Kvantitativa variabler kan vara *diskreta* eller *kontinuerliga*
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Taxologi för variabler, skaltyper </h2>
 
 Variabler kan även kategoriseras i *skaltyper*
@@ -155,7 +175,7 @@ Skaltyp baseras på relation mellan utfall
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Nominalskala </h2>
 
 Ingen relation mellan möjliga utfall
@@ -163,7 +183,7 @@ Ingen relation mellan möjliga utfall
 Art, egennamn, nationalitet, yrke, jordtyp
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Ordinalskala </h2>
 
 Ett utfall kan vara mindre än, mer än eller lika ett annat utfall
@@ -173,7 +193,12 @@ Inget mått på hur stor skillnaden är
 Subjektiva kvalitetsbedömningar
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Intervall-kvot-skala </h2>
 
 Skillnaden mellan två utfall är tolkningsbar
@@ -183,7 +208,7 @@ Kvotskalan har en fixerad nollpunkt, medan variabler på intervallskala kan vara
 Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Sammanfattning, taxologi </h2>
 
 <div style="position:absolute;left:0%;width:45%;font-size:0.75em;">
@@ -205,11 +230,16 @@ Temperatur (celsius och kelvin), beräknade antal, vikter, höjder, längder
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Punktskattningar </h2>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Läge och spridning </h2>
 
 En punktskattning är ett tal som beskriver någon egenskap hos en variabel
@@ -224,7 +254,7 @@ En punktskattning är ett tal som beskriver någon egenskap hos en variabel
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Medelvärde </h2>
 
 Summan av alla värden delat på antalet värden
@@ -234,7 +264,7 @@ $$\bar x = \frac{1}{n} \sum_{i=1}^n x_i$$
 Ett jämviktsläge
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Median </h2>
 
 Lika många värden över medianen som under medianen
@@ -242,7 +272,12 @@ Lika många värden över medianen som under medianen
 Betecknas här *Md*
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Kvartiler </h2>
 
 Kvartiler ($q_1, q_2, q_3)$ delar ett material i fyra lika delar
@@ -252,13 +287,18 @@ En fjärdedel ligger under $q_1$, två fjärdedelar under $q_2$ och tre fjärded
 $q_2 = Md$
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Typvärde </h2>
 
 Det vanligast förekommande värdet
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Ett exempel </h2>
 
 Antal sparvnävor i stickprov från åtta fält
@@ -278,7 +318,7 @@ $$(2, 4, 6, 6, 11, 13, 16, 22)$$
 </div>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Varians, $s^2$ </h2>
 
 Summerade kvadratavstånd till medelvärdet delat på $n - 1$
@@ -291,7 +331,7 @@ $$s^2 = \frac{\sum_{i=1}^n (x_i - \bar x)^2}{n - 1}$$
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Standardavvikelse, $s$ </h2>
 
 Standardavvikelsen $s$ är roten av variansen
@@ -301,7 +341,7 @@ $$s = \sqrt s$$
 $s$ är på samma skala som den ursprungliga variabeln
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Kvartilavstånd </h2>
 
 *Interquartile range, IQR*
@@ -311,11 +351,16 @@ Avståndet mellan $q_1$ och $q_3$
 $$IQR = q_3 - q_1$$
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Visualiseringar </h2>
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Stapeldiagram </h2>
 
 Staplar ger antalet observationer inom en viss kategori
@@ -335,7 +380,12 @@ ggplot(dat, aes(Art, Antal, ymin = Antal - SE, ymax = Antal + SE)) +
 
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+</div>
+##
+
+<div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
+
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Cirkeldiagram </h2>
 
 <div style="position:absolute;left:0%;width:45%;">
@@ -353,7 +403,7 @@ pie(dat$Antal, paste(dat$Art, round(dat$Antal/sum(dat$Antal) * 100, 1), "%"),
 
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:37.5%;width:25%;top:50%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Lådogram (boxplot) </h2>
 
 <div style="font-size:0.75em;">
@@ -397,7 +447,7 @@ ggplot(a, aes(y = values)) + geom_boxplot(width = 0.005) +
 
 <div style='position:absolute;height:800px;width:1200px;top:0px;left:-10%;font-size:0.75vw;'>
 
-<div class='fragment fade-in' style='position:absolute;height:75%;width:25%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:0%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Histogram </h2>
 
 Generaliserar stapeldiagrammet till kontinuerliga variabler
@@ -416,7 +466,7 @@ ggplot(a, aes(x = values)) +
 ```
 
 </div>
-<div class='fragment fade-in' style='position:absolute;height:75%;width:25%;top:0%;left:33.33%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
+<div class='fragment fade-in' style='position:absolute;height:75%;width:37.5%;top:0%;left:50%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
 <h2> Venn-diagram </h2>
 
 <div style="position:absolute;left:0%;width:45%;">
@@ -428,12 +478,6 @@ Cirklar anger andelen observationer med en viss egenskap
 <div style="position:absolute;left:50%;width:50%;">
 <img src='Images/Venn1.png' height = 350>
 </div>
-
-</div>
-<div class='fragment fade-in' style='position:absolute;height:75%;width:25%;top:0%;left:66.67%;background-color:#0f0;border:solid;border-width:1px;border-radius:5px;padding:10px;'>
-<h2> Sammanfattning </h2>
-
-
 
 </div>
 </div>
